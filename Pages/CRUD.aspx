@@ -23,6 +23,10 @@
                 <label class="form-label">Telefono</label>
                 <asp:TextBox runat="server" CssClass="form-control" ID="tbtelefono"></asp:TextBox>
             </div>
+            <div class="mb-3">
+                <label class="form-label">Id_Telefono</label>
+                <asp:TextBox runat="server" CssClass="form-control" ID="tbidtelefono"></asp:TextBox>
+            </div>
             <asp:Button runat="server" Text="Create" CssClass="btn btn-primary" ID="BtnCreate" Visible="false" OnClick="BtnCreate_Click"/>
             <asp:Button runat="server" Text="Update" CssClass="btn btn-primary" ID="BtnUpdate" Visible="false" OnClick="BtnUpdate_Click"/>
             <asp:Button runat="server" Text="Delete" CssClass="btn btn-primary" ID="BtnDelete" Visible="false" Onclick="BtnDelete_Click"/>

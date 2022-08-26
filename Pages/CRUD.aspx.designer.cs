@@ -51,6 +51,15 @@ namespace CRUD.Pages
         protected global::System.Web.UI.WebControls.TextBox tbtelefono;
 
         /// <summary>
+        /// Control tbidtelefono.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbidtelefono;
+
+        /// <summary>
         /// Control BtnCreate.
         /// </summary>
         /// <remarks>

@@ -8,6 +8,9 @@ CREATE TABLE Telefonos(
 	PRIMARY KEY (Id_Telefono)
 );
 
+INSERT INTO Telefonos (Id_Telefono, LugarTelefono) 
+VALUES (1, 'Casa'), (2, 'Trabajo'), (3, 'ContactoEmergencia');
+
 CREATE TABLE Estudiantes(
 	Id_Estudiante INT IDENTITY(1,1),
 	Nombre VARCHAR(50),
