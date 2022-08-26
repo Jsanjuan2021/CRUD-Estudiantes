@@ -23,10 +23,10 @@
                 <label class="form-label">Telefono</label>
                 <asp:TextBox runat="server" CssClass="form-control" ID="tbtelefono"></asp:TextBox>
             </div>
-            <asp:Button runat="server" Text="Create" CssClass="btn btn-primary" ID="BtnCreate" Visible="false" />
-            <asp:Button runat="server" Text="Update" CssClass="btn btn-primary" ID="BtnUpdate" Visible="false" />
-            <asp:Button runat="server" Text="Delete" CssClass="btn btn-primary" ID="BtnDelete" Visible="false" />
-            <asp:Button runat="server" Text="Regresar" CssClass="btn btn-primary btn-dark" ID="BtnBack" Visible="true" />
+            <asp:Button runat="server" Text="Create" CssClass="btn btn-primary" ID="BtnCreate" Visible="false" OnClick="BtnCreate_Click"/>
+            <asp:Button runat="server" Text="Update" CssClass="btn btn-primary" ID="BtnUpdate" Visible="false" OnClick="BtnUpdate_Click"/>
+            <asp:Button runat="server" Text="Delete" CssClass="btn btn-primary" ID="BtnDelete" Visible="false" Onclick="BtnDelete_Click"/>
+            <asp:Button runat="server" Text="Regresar" CssClass="btn btn-primary btn-dark" ID="BtnBack" Visible="true" OnClick="BtnBack_Click"/>
         </div>
     </form>
 </asp:Content>
